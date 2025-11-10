@@ -1,0 +1,70 @@
+/* Style for all files */
+
+#body{
+    width: 300px;
+    border: 15px solid blue;
+    padding: 10%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* horizontal alignment*/
+    align-items: center; /*vertical alignment */
+    height: 100vh; /* 100% of viewport height */
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* Style for the body or middle of a page */
+.middle{
+    gap: 20px;
+    background-color: #319bff;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Style for each 'thing' within the middle divs */
+.item{
+  border-radius: 12px;
+  border: 5px solid black;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f2f2f2;
+}
+
+/* Style for the navigation bar - code modified from w3schools*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #121212;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family: 'Trebuchet MS', sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #319bff;
+  color: white;
+}
