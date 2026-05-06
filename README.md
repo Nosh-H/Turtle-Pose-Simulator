@@ -7,7 +7,7 @@ A Python-based project that demonstrates PID (Proportional-Integral-Derivative) 
 - PID position control demonstration
 - Interactive turtle simulations
 - Tic Tac Toe game
-- [Web interface](https://noah-h3467.github.io/Turtle-Pose-Simulator/) for project demonstration
+- [Web interface](https://nosh-h.github.io/Turtle-Pose-Simulator/) for project demonstration
 
 ## Technologies Used
 
@@ -33,4 +33,4 @@ PID control concept based on [Digikey's tutorial](https://www.youtube.com/watch?
 
 ## Author
 
-Created by [Noah Haskell](https://noah-h3467.github.io/Noah-Haskell-s-Personal-Portfolio/)
+Created by [Noah Haskell](https://nosh-h.github.io/portfolio/)
